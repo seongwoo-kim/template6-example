@@ -1,0 +1,40 @@
+.section_wrapper{
+  border-top:1px solid black;
+  position:relative;
+}
+
+.section_title{
+  color:#222;
+  font-size:27px;
+  letter-spacing: 1px;
+  font-weight:bold;
+  background-color:white;
+  position:absolute;
+  left:50% ;
+  transform:translateX(-50%);
+  top:-33px;
+  padding:10px 20px;
+}
+
+@media screen and (max-width:768px){
+.section_title{
+ font-size : 20px;
+ top:-28px;
+}
+
+  
+}
+@media screen and (max-width:460px){
+  .section_wrapper{
+    border-top: none;
+    
+  }
+  .section_title{
+    font-size:17px; 
+    position:static;
+    transform:none;
+    text-align:center;
+  }
+    
+  }
+
